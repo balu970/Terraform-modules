@@ -1,8 +1,4 @@
-####################################################################
-#### Created by : Kalyan Bhave ####
-#### Date : 20-Jun-2020 ####
-#### Updated by : Balakrishna/ Praveen kumar/ Sathish kumar ####
-####################################################################
+
 resource "aws_ecr_repository" "ecr_repo" {
   name                 = var.name
   image_tag_mutability = var.image_tag_mutability

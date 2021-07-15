@@ -1,8 +1,4 @@
-####################################################################
-#### Created by : Kalyan Chakravarthi/ Kalyan Bhave ####
-#### Date : 20-Nov-2019 ####
-#### Updated by : Balakrishna/ Praveen kumar/ Sathish kumar ####
-####################################################################
+
 resource "aws_security_group_rule" "sgr" {
   type              = "ingress"
   from_port         = var.from_port

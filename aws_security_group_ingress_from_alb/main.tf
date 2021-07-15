@@ -1,7 +1,4 @@
-####################################################################
-#### Created by : Sanjib Mandal ####
-#### Date : 22-Mar-2021 ####
-####################################################################
+
 resource "aws_security_group_rule" "sgr" {
   count             = length(var.ports)
   type              = "ingress"

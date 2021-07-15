@@ -1,9 +1,4 @@
-####################################################################
-#### Created by : Kalyan Bhave ####
-#### Date : 20-Jun-2020 ####
-#### Updated by : Balakrishna/ Praveen kumar/ Sathish kumar ####
-####################################################################
-########################### Jenkins Slave Role ###########################
+
 data "template_file" "role_template" {
   template = file("templates/${var.trust_relationship}.json.tpl")
       vars = {

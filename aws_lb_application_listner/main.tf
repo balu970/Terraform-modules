@@ -1,8 +1,4 @@
-####################################################################
-#### Created by : Kalyan Chakravarthi/ Kalyan Bhave ####
-#### Date : 20-Jun-2020 ####
-#### Updated by : Balakrishna/ Praveen kumar/ Sathish kumar ####
-####################################################################
+
 resource "aws_lb_listener" "lb_listner" {
   load_balancer_arn = var.alb_arn
   port              = var.alb_lb_port

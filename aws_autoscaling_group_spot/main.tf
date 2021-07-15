@@ -1,8 +1,4 @@
-####################################################################
-#### Created by : Kalyan Bhave ####
-#### Date : 20-Jun-2020 ####
-#### Updated by : Balakrishna/ Praveen kumar/ Sathish kumar ####
-####################################################################
+
 resource "aws_autoscaling_group" "asg_spot" {
   availability_zones        = var.availability_zones
   name_prefix               = "${var.name}_asg"

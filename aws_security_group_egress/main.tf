@@ -1,9 +1,4 @@
-####################################################################
-#### Created by : Kalyan Chakravarthi/ Kalyan Bhave ####
-#### Date : 20-Nov-2019 ####
-#### Updated by : Balakrishna/ Praveen kumar/ Sathish kumar ####
-####################################################################
-# Egress - Allow All
+
 #
 resource "aws_security_group_rule" "sgre" {
   type              = "egress"

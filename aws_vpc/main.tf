@@ -1,9 +1,4 @@
-####################################################################
-#### Created by : Kalyan Chakravarthi/ Kalyan Bhave ####
-#### Date : 20-Jun-2020 ####
-#### Updated by : Balakrishna/ Praveen kumar/ Sathish kumar ####
-####################################################################
-####################    VPC    ####################
+
 data "aws_vpc" "vpc" {
   tags = {
     Name = var.vpc_id

@@ -1,9 +1,4 @@
-####################################################################
-#### Created by : Kalyan Bhave ####
-#### Date : 20-Jun-2020 ####
-#### Updated by : Balakrishna/ Praveen kumar/ Sathish kumar ####
-####################################################################
-############ ECS EC2 Service ##############
+
 resource "aws_ecs_service" "ecs_service" {
   name                 = "${var.name}-ecs-service"
   cluster              = var.cluster_id

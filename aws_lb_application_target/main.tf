@@ -1,8 +1,4 @@
-####################################################################
-#### Created by : Kalyan Chakravarthi/ Kalyan Bhave ####
-#### Date : 20-Jun-2020 ####
-#### Updated by : Balakrishna/ Praveen kumar/ Sathish kumar ####
-####################################################################
+
 resource "aws_lb_target_group" "lb_tg_port" {
   name        = "${var.name}-tg-${var.tg_port}"
   port        = var.tg_port

@@ -1,8 +1,4 @@
-####################################################################
-#### Created by : Kalyan Bhave ####
-#### Date : 20-Jun-2020 ####
-#### Updated by : Balakrishna/ Praveen kumar/ Sathish kumar ####
-####################################################################
+
 resource "aws_ecs_capacity_provider" "capacity_provider" {
   name = var.name
   auto_scaling_group_provider {

@@ -1,9 +1,4 @@
-####################################################################
-#### Created by : Kalyan Bhave ####
-#### Date : 20-Jun-2020 ####
-#### Updated by : Balakrishna/ Praveen kumar/ Sathish kumar ####
-####################################################################
-################ ECS Task Definitions ###############
+
 resource "aws_ecs_task_definition" "ecs_taskdefinition" {
   family                   = var.family
   container_definitions    = data.template_file.taskdefinition_template.rendered

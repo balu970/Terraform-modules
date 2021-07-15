@@ -1,9 +1,4 @@
-####################################################################
-#### Created by : Kalyan Bhave ####
-#### Date : 20-Jun-2020 ####
-#### Updated by : Balakrishna/ Praveen kumar/ Sathish kumar ####
-####################################################################
-############### auto scaling for target tracking  ###############
+
 resource "aws_appautoscaling_target" "asg_target_tracking" {
   service_namespace  = "ecs"
   resource_id        = "service/${var.ecs_cluster_name}/${var.ecs_service_name}"

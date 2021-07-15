@@ -1,9 +1,4 @@
-####################################################################
-#### Created by : Kalyan Bhave ####
-#### Date : 20-Jun-2020 ####
-#### Updated by : Balakrishna/ Praveen kumar/ Sathish kumar ####
-####################################################################
-########### Auctions ###############
+
 resource "aws_launch_template" "lc_spot" {
   name_prefix   = var.name
   image_id      = var.image_id
